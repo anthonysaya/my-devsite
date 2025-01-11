@@ -5,6 +5,6 @@ export const plcArray: string[] = [
   "College Major",
   "Company",
   "Software",
-  "Programming Language",
+  "Program Language",
   "Spoken Language",
 ];

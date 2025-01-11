@@ -1,6 +1,5 @@
 .OneCol-main {
   width: 100%;
-  height: auto;
   padding: 1rem;
 }
 
@@ -35,7 +34,6 @@
 @media (max-width: 990px) {
   .OneCol-main {
     height: 100%;
-    width: auto;
     margin: 0 auto;
   }
 }
