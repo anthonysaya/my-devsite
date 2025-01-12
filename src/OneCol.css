@@ -1,15 +1,23 @@
 .OneCol-main {
-  width: 100%;
+  display: flex;
   padding: 1rem;
 }
 
 .OneCol-main-box {
   background-color: #4d4d4d;
   border-radius: 30px;
-  font-size: 3rem;
-  min-width: fit-content;
+  font-size: 2rem;
+  width: 100%;
   min-height: fit-content;
   padding: 3rem;
+}
+
+.One-col-main-inputs {
+  width: 100%;
+}
+
+.OneCol-main-form {
+  width: 100%;
 }
 
 .OneCol-main-buttons {
@@ -22,18 +30,11 @@
   color: #ffb700;
   font-weight: 700;
   border-radius: 30px;
-  font-size: 3rem;
+  font-size: 2rem;
   padding: 2rem;
 }
 
 .span-bold-yellow {
   color: #ffb700;
   font-weight: 700;
-}
-
-@media (max-width: 990px) {
-  .OneCol-main {
-    height: 100%;
-    margin: 0 auto;
-  }
 }
