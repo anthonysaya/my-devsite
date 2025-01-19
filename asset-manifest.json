@@ -1,26 +1,29 @@
 {
   "files": {
-    "main.css": "/my-devsite/static/css/main.5b02c335.css",
-    "main.js": "/my-devsite/static/js/main.b53c1a20.js",
+    "main.css": "/my-devsite/static/css/main.103e5ee9.css",
+    "main.js": "/my-devsite/static/js/main.426fca9a.js",
     "static/media/stockresume.jpg": "/my-devsite/static/media/stockresume.cd155b730788c1b2c68b.jpg",
-    "static/media/wtp.png": "/my-devsite/static/media/wtp.039dd30f5bcfee36affc.png",
+    "static/media/WGSIP1920.png": "/my-devsite/static/media/WGSIP1920.cbf49969a9b7e67e1038.png",
+    "static/media/WGSIP1920_h.png": "/my-devsite/static/media/WGSIP1920_h.be7977f7f8b75465d337.png",
+    "static/media/WTP1920.png": "/my-devsite/static/media/WTP1920.0450a245efc40ac941a1.png",
+    "static/media/ETPI1920.png": "/my-devsite/static/media/ETPI1920.bcf9904e834464042ea6.png",
     "static/media/resume.pdf": "/my-devsite/static/media/resume.e72d6659e6a553797cb2.pdf",
-    "static/media/wgsip.jpg": "/my-devsite/static/media/wgsip.3f34adf609cd2b7f90f1.jpg",
-    "static/media/myphoto.jpg": "/my-devsite/static/media/myphoto.e94fb8c767c046182742.jpg",
-    "static/media/wsil.png": "/my-devsite/static/media/wsil.6d5553b52dc97dbcba4e.png",
-    "static/media/stockprojects.jpg": "/my-devsite/static/media/stockprojects.0849b69e84789d9a9040.jpg",
+    "static/media/WTP1920_h.png": "/my-devsite/static/media/WTP1920_h.9eee9e6ab97be9d5b164.png",
+    "static/media/ETPI1920_h.png": "/my-devsite/static/media/ETPI1920_h.3693e8259e4399dfb27c.png",
+    "static/media/WSIL1920.png": "/my-devsite/static/media/WSIL1920.4e64ae4dd71d473c9ba2.png",
+    "static/media/WSIL1920_h.png": "/my-devsite/static/media/WSIL1920_h.460bef14e79489b76e66.png",
+    "static/media/photohead.png": "/my-devsite/static/media/photohead.793369a3f0abde80a898.png",
     "static/media/stockhome.jpg": "/my-devsite/static/media/stockhome.da0830c2b3e3e1b9e2c3.jpg",
-    "static/media/etpi.png": "/my-devsite/static/media/etpi.1c3110a33c09ba3c70ef.png",
     "static/media/ETPI.ico": "/my-devsite/static/media/ETPI.fc0116798af3cfadf40a.ico",
     "static/media/WGSIP.ico": "/my-devsite/static/media/WGSIP.2863ec3483e5bbc6d35d.ico",
     "static/media/WSIL.ico": "/my-devsite/static/media/WSIL.ca2223a9937f84d3d33b.ico",
     "static/media/WTP.ico": "/my-devsite/static/media/WTP.e44baae21967d009c979.ico",
     "index.html": "/my-devsite/index.html",
-    "main.5b02c335.css.map": "/my-devsite/static/css/main.5b02c335.css.map",
-    "main.b53c1a20.js.map": "/my-devsite/static/js/main.b53c1a20.js.map"
+    "main.103e5ee9.css.map": "/my-devsite/static/css/main.103e5ee9.css.map",
+    "main.426fca9a.js.map": "/my-devsite/static/js/main.426fca9a.js.map"
   },
   "entrypoints": [
-    "static/css/main.5b02c335.css",
-    "static/js/main.b53c1a20.js"
+    "static/css/main.103e5ee9.css",
+    "static/js/main.426fca9a.js"
   ]
 }
