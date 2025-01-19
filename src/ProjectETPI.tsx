@@ -1,6 +1,6 @@
 import React from "react";
-import image from "./etpi.png";
-import "./TwoCol.css";
+import image from "./ETPI.ico";
+import "./OneCol.css";
 
 function ProjectWGSIP(props: { onProject: (string) => void }) {
   function handleBack(): void {
@@ -9,10 +9,10 @@ function ProjectWGSIP(props: { onProject: (string) => void }) {
 
   return (
     <>
-      <div className="TwoCol-box">
-        <img src={image} />
-        <main className="TwoCol-main">
-          <div className="TwoCol-main-box">
+      <div className="OneCol-box">
+        <main className="OneCol-main">
+          <div className="OneCol-main-box">
+            <img src={image} />{" "}
             <i>
               <span className="span-bold-yellow">E.T. PI: Alien Detective</span>
             </i>{" "}
@@ -41,9 +41,9 @@ function ProjectWGSIP(props: { onProject: (string) => void }) {
             </a>
             <br />
             <br />
-            <div className="TwoCol-main-buttons">
+            <div className="OneCol-main-buttons">
               <button
-                className="TwoCol-main-button"
+                className="OneCol-main-button"
                 id="back"
                 onClick={handleBack}
               >

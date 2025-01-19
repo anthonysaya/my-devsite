@@ -1,6 +1,6 @@
-import React, { useState } from "react";
-import image from "./wtp.png";
-import "./TwoCol.css";
+import React from "react";
+import image from "./WTP.ico";
+import "./OneCol.css";
 
 function ProjectWTP(props: { onProject: (string) => void }) {
   function handleBack(): void {
@@ -9,10 +9,10 @@ function ProjectWTP(props: { onProject: (string) => void }) {
 
   return (
     <>
-      <div className="TwoCol-box">
-        <img src={image} />
-        <main className="TwoCol-main">
-          <div className="TwoCol-main-box">
+      <div className="OneCol-box">
+        <main className="OneCol-main">
+          <div className="OneCol-main-box">
+            <img src={image} />{" "}
             <i>
               <span className="span-bold-yellow">Who's That Pokémon?</span>
             </i>{" "}
@@ -42,9 +42,9 @@ function ProjectWTP(props: { onProject: (string) => void }) {
             </a>
             <br />
             <br />
-            <div className="TwoCol-main-buttons">
+            <div className="OneCol-main-buttons">
               <button
-                className="TwoCol-main-button"
+                className="OneCol-main-button"
                 id="back"
                 onClick={handleBack}
               >

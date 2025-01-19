@@ -1,6 +1,6 @@
 import React from "react";
-import image from "./wsil.png";
-import "./TwoCol.css";
+import image from "./WSIL.ico";
+import "./OneCol.css";
 
 function ProjectWSIL(props: { onProject: (string) => void }) {
   function handleBack(): void {
@@ -9,10 +9,10 @@ function ProjectWSIL(props: { onProject: (string) => void }) {
 
   return (
     <>
-      <div className="TwoCol-box">
-        <img src={image} />
-        <main className="TwoCol-main">
-          <div className="TwoCol-main-box">
+      <div className="OneCol-box">
+        <main className="OneCol-main">
+          <div className="OneCol-main-box">
+            <img src={image} />{" "}
             <i>
               <span className="span-bold-yellow">
                 Where in the World Should I Live?
@@ -45,9 +45,9 @@ function ProjectWSIL(props: { onProject: (string) => void }) {
             </a>
             <br />
             <br />
-            <div className="TwoCol-main-buttons">
+            <div className="OneCol-main-buttons">
               <button
-                className="TwoCol-main-button"
+                className="OneCol-main-button"
                 id="back"
                 onClick={handleBack}
               >

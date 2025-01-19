@@ -4,10 +4,15 @@
 }
 
 .TwoCol-box img {
-  width: 50%;
-  height: auto;
+  width: 50vw;
+  height: 80vh;
   align-self: stretch;
   object-fit: cover;
+}
+
+.TwoCol-main-box img {
+  width: auto;
+  height: auto;
 }
 
 .TwoCol-main {
@@ -21,12 +26,8 @@
   font-size: 2rem;
   min-width: fit-content;
   min-height: fit-content;
+  height: 10vh;
   padding: 3rem;
-}
-
-.TwoCol-main-box img {
-  width: auto;
-  height: auto;
 }
 
 .TwoCol-main-buttons {
@@ -54,6 +55,7 @@
   }
   .TwoCol-box img {
     width: 100%;
+    height: 40vh;
   }
 
   .TwoCol-main {

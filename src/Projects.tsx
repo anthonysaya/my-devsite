@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import ProjectMain from "./ProjectMain.tsx";
+import ProjectGrid from "./ProjectGrid.tsx";
 import ProjectWTP from "./ProjectWTP.tsx";
 import ProjectWGSIP from "./ProjectWGSIP.tsx";
 import ProjectWSIL from "./ProjectWSIL.tsx";
@@ -14,7 +15,7 @@ function Project() {
 
   return (
     <>
-      ({project == "Main" && <ProjectMain onProject={handleProject} />}
+      ({project == "Main" && <ProjectGrid onProject={handleProject} />}
       {project == "WTP" && <ProjectWTP onProject={handleProject} />}
       {project == "WGSIP" && <ProjectWGSIP onProject={handleProject} />}
       {project == "WSIL" && <ProjectWSIL onProject={handleProject} />}
